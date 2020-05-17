@@ -1,0 +1,146 @@
+body {
+	background: url(../images/background2.jpg);
+	background-position: 0px 400px;
+	background-size: 100% 350%;
+}
+
+.container {
+	width: 80%;
+	position: absolute;
+	top: 580px;
+	left: 10%;
+	padding-bottom: 90px;
+
+}
+
+.individual-gifs {
+	float: left;
+	margin: 10px;
+}
+
+.intro {
+	display: block;
+	background-color: #271416;
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 400px;
+	padding: 30px;
+}
+
+.input-label {
+	font-size: 20px;
+	color: black;
+}
+
+.character-btn {
+	background-color: #D65947;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 15px 10px 15px;
+	margin: 5px;
+	color: white;
+}
+
+.character-btn:hover {
+	background-color: #7B2F2C;
+}
+
+.rating-text {
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.throne {
+	position: relative;
+	left: 0%;
+}
+
+#got-buttons {
+	width: 100%;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+#add-character {
+	background-color: #37B7BF;
+	border: none;
+	color: white;
+	margin-top: 14px;
+	padding: 10px;
+	font-size: 18px;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+
+#add-character:hover {
+	background-color: #375D75;
+}
+
+#sticky {
+   	position: fixed;    
+	bottom:0;          	
+	left:0;            
+	width: 100%;
+   	height: 60px;   
+   	padding-top: 10px;
+   	background: #89A3B0;
+   	text-align: center;
+   	color:black;
+   	font-family: 'Oxygen', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.rating {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/* JUMBOTRON ELEMENTS */
+
+#title {
+	color:navy;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-top: 7%;
+  font-family: 'Lora', sans-serif;
+  font-weight: 700;
+}
+
+#title-description {
+	color: navy;
+	text-align: center;
+	font-family: 'Lora', sans-serif;
+	font-weight: 600;
+  letter-spacing: 10px;
+  margin-top: auto;
+}
+
+#title-button {
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	position: relative;
+	left: 43%;
+	background-color: #37B7BF;
+	border: none;
+}
+
+#title-button:hover {
+	background-color: #375D75;
+}
