@@ -61,7 +61,7 @@ $(document).ready(function() {
        var characterName = $(this).attr("data-name");
        var characterStr = characterName.split(" ").join("+");
        var giphyApi = "VZOeRuvGv99Tv5bcROMNykfgZduAJHcq";
-       var giphyURL =  "http://api.giphy.com/v1/gifs/search?q=" + characterStr + "&api_key=" + giphyApi + "&limit=10";
+       var giphyURL =  "https://api.giphy.com/v1/gifs/search?q=" + characterStr + "&api_key=" + giphyApi + "&limit=10";
 
        $.ajax({
           url: giphyURL,
